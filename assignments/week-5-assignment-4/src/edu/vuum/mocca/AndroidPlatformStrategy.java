@@ -89,9 +89,7 @@ public class AndroidPlatformStrategy extends PlatformStrategy
     	
     	try {
 			mLatch.await();
-			//text = "";
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
     }
