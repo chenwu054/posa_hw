@@ -49,7 +49,7 @@ public class PlatformStrategyFactory
                                       */
                                      public PlatformStrategy execute() 
                                      {
-                                         return new AndroidPlatformStrategy(output,
+                                         return new AndroidPlatformStrategy2(output,
                                                                             activity);
                                      }
                                  });
